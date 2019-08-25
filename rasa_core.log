@@ -1,0 +1,263 @@
+2019-08-25 13:10:21,904 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7k0IX'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:10:22,795 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7k0c6'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:10:23,985 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7k0uf'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:10:28,662 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7k21k'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:10:33,982 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7k3G6'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:10:39,002 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7k4ZE'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:10:45,274 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7k60Z'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:10:51,975 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7k7jx'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:10:59,278 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7k9RI'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:05,739 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kB53'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:11,104 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kCK6'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:16,131 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kDdR'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:21,453 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kErv'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:26,477 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kG91'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:31,807 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kHNa'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:36,831 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kIgs'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:42,153 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kJvG'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:47,174 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kLCR'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:52,493 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kMQw'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:11:57,508 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kNjy'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:12:02,827 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kOyN'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:12:07,843 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mp7kQFR'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /socket.io/ not found
+2019-08-25 13:12:12,849 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 539, in run_forever
+    self._run_once()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 1739, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-08-25 13:13:35,358 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-08-25 13:13:35,360 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-08-25 13:16:27,033 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-08-25 13:19:48,440 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-08-25 13:23:33,967 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 539, in run_forever
+    self._run_once()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 1739, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-08-25 13:45:54,275 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 539, in run_forever
+    self._run_once()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 1739, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt

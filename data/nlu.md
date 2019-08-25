@@ -5,15 +5,6 @@
 - that sounds good
 - correct
 
-## intent: inform
-- To [Bhopal](DESTINATION)
-- From [Indore](ORIGIN)
-- from [Indore](ORIGIN)
-- to [indore](DESTINATION)
-- From [bhopal](ORIGIN)
-- From [Chitorr](ORIGIN)
-- To [ujjain](ORIGIN)
-
 ## intent:book_ticket
 - i want to book a ticket from [Indore](ORIGIN) to [Bhopal](DESTINATION)
 - i want to book a ticket from [Bhopal](ORIGIN) to [Indore](DESTINATION)
@@ -30,12 +21,9 @@
 - I want to book a ticket for [12 August 2019](DATE)
 - I want to book a ticket
 - Book a ticket for [ladakh](DESTINATION) on [24 December](DATE)
-
-## intent: list_trains
-- I want to know details on all the trains leaving for [Kashmir](DESTINATION) on [12 january](DATE)
-- I want to know details on all the trains leaving on [05 january](DATE)
-- give me details of all the trains leaving on [03 june](DATE)
-- I want details of the trip from [Mahu](ORIGIN) to [Banglore](ORGIN) for [23 September 2019](DATE)
+- I want to book a train from [Indore](ORIGIN) to [Ujjain](DESTINATION)
+- I want to book 04921
+- I want to book [04921](TRAIN_NUMBER)
 
 ## intent:deny
 - no
@@ -59,6 +47,16 @@
 - good evening
 - hey there
 
+## intent:inform
+- To [Bhopal](DESTINATION)
+- From [Indore](ORIGIN)
+- from [Indore](ORIGIN)
+- to [indore](DESTINATION)
+- From [bhopal](ORIGIN)
+- From [Chitorr](ORIGIN)
+- To [ujjain](ORIGIN)
+- I want to plan a trip from [Indore](ORIGIN) to [Bhopal](DESTINATION)
+
 ## intent:know_user
 - hey i am [mayank](PERSON)
 - Hey I am [Mayank](PERSON)
@@ -74,6 +72,13 @@
 - hey i am [Mayank](PERSON)
 - Hey, I am [Mayank](PERSON)
 - I am [Mayank](PERSON)
+- I am [Mayank](PERSON)
+
+## intent:list_trains
+- I want to know details on all the trains leaving for [Kashmir](DESTINATION) on [12 january](DATE)
+- I want to know details on all the trains leaving on [05 january](DATE)
+- give me details of all the trains leaving on [03 june](DATE)
+- I want details of the trip from [Mahu](ORIGIN) to [Banglore](ORGIN) for [23 September 2019](DATE)
 
 ## intent:mood_great
 - perfect

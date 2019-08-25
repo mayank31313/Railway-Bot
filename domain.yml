@@ -1,25 +1,28 @@
 %YAML 1.1
 ---
 actions:
+- utter_ask_DESTINATION
+- utter_ask_ORIGIN
+- utter_ask_PERSON
+- utter_ask_TRAIN_NUMBER
 - utter_cheer_up
 - utter_did_that_help
 - utter_goodbye
 - utter_greet
 - utter_greet_user
 - utter_happy
-- utter_ask_DESTINATION
-- utter_ask_ORIGIN
-- utter_ask_PERSON
-
 entities:
 - DESTINATION
 - ORIGIN
 - PERSON
+- TRAIN_NUMBER
 forms:
 - action_book_ticket
+- action_list_trains
 intents:
 - book_ticket
 - know_user
+- inform
 - greet
 - goodbye
 - affirm
@@ -42,6 +45,8 @@ templates:
   - text: From where you want to leave?
   utter_ask_PERSON:
   - text: What is your name?
+  utter_ask_TRAIN_NUMBER:
+  - text: Which train would you like to book?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
