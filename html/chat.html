@@ -79,11 +79,9 @@ $(document).ready(function(){
             try{
                 json = JSON.parse(text)
                 div3 = $(document.createElement("DIV"))
-                div3.append("<h4>" + json.job_title + "</h4>")
-                div3.append("<span>" + json.organization_nm + "</span><br>")
-                div3.append("Salary: " + json.salary + "<br>")
-                div3.append("Working Locations: " + json.localities.replace(" ",", "))
-
+                div3.append("<h4> Train No " + json.train.number + "</h4>")
+                div3.append("<span>From: " + json.source.name + " To: " + json.dest.name + "</span><br>")
+                div3.append("<span>Arrival Time: "+json.train.start_time+"</span>")
                 div2.append(div3)
             }
             catch(err){

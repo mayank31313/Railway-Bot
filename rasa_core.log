@@ -261,3 +261,70 @@ Traceback (most recent call last):
   File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\client.py", line 41, in signal_handler
     return original_signal_handler(sig, frame)
 KeyboardInterrupt
+2019-08-25 15:46:32,966 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-08-25 15:47:24,725 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 539, in run_forever
+    self._run_once()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 1739, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-08-25 15:47:25,647 [ERROR]  Exception occurred while handling uri: 'ws://localhost:5005/socket.io/?EIO=3&transport=websocket&sid=c9fc29f5060143ae84017c6b3a3bfca8'
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\asyncio_server.py", line 222, in handle_request
+    packets = await socket.handle_get_request(environ)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\asyncio_socket.py", line 89, in handle_get_request
+    return await getattr(self, '_upgrade_' + transport)(environ)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\asyncio_socket.py", line 128, in _upgrade_websocket
+    return await ws(environ)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\async_drivers\sanic.py", line 122, in __call__
+    await self.handler(self)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\asyncio_socket.py", line 233, in _websocket_handler
+    await self.queue.put(None)  # unlock the writer task so it can exit
+  File "c:\anaconda3\envs\rasa\lib\asyncio\queues.py", line 136, in put
+    return self.put_nowait(item)
+  File "c:\anaconda3\envs\rasa\lib\asyncio\queues.py", line 148, in put_nowait
+    self._wakeup_next(self._getters)
+  File "c:\anaconda3\envs\rasa\lib\asyncio\queues.py", line 66, in _wakeup_next
+    waiter.set_result(None)
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 688, in call_soon
+    self._check_closed()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 480, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2019-08-25 15:47:25,662 [ERROR]  SPF caught an error that should have been caught by Sanic response handler.
+2019-08-25 15:47:25,662 [ERROR]  
+2019-08-25 16:11:37,911 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 539, in run_forever
+    self._run_once()
+  File "c:\anaconda3\envs\rasa\lib\asyncio\base_events.py", line 1739, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\anaconda3\envs\rasa\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\anaconda3\envs\rasa\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt

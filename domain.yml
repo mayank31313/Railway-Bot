@@ -20,9 +20,9 @@ forms:
 - action_book_ticket
 - action_list_trains
 intents:
-- book_ticket
-- know_user
 - inform
+- know_user
+- book_ticket
 - greet
 - goodbye
 - affirm

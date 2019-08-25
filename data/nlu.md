@@ -56,6 +56,8 @@
 - From [Chitorr](ORIGIN)
 - To [ujjain](ORIGIN)
 - I want to plan a trip from [Indore](ORIGIN) to [Bhopal](DESTINATION)
+- I want to plan a trip
+- from [Indore](ORIGIN) to [Odisha](DESTINATION)
 
 ## intent:know_user
 - hey i am [mayank](PERSON)
@@ -73,6 +75,7 @@
 - Hey, I am [Mayank](PERSON)
 - I am [Mayank](PERSON)
 - I am [Mayank](PERSON)
+- Hi, I am [Mayank](PERSON)
 
 ## intent:list_trains
 - I want to know details on all the trains leaving for [Kashmir](DESTINATION) on [12 january](DATE)

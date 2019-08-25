@@ -46,7 +46,6 @@ class ListTrains(FormAction):
 
         dispatcher.utter_message("Ok, we have found some trains for your journey from %s to %s"%(origin,destination));
         train_arrivals = self.trains["arrivals"]
-
         for trains in train_arrivals:
             dispatcher.utter_message(json.dumps(trains))
         return []
@@ -61,7 +60,7 @@ class BookTicket(FormAction):
         train_number = tracker.get_slot("TRAIN_NUMBER")
         if train_number is None:
             return ["DESTINATION","ORIGIN"]
-        else
+        else:
             return ["TRAIN_NUMBER"]
 
     def submit(self, dispatcher, tracker, domain):
