@@ -1,0 +1,57 @@
+%YAML 1.1
+---
+actions:
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_greet_user
+- utter_happy
+- utter_ask_DESTINATION
+- utter_ask_ORIGIN
+- utter_ask_PERSON
+
+entities:
+- DESTINATION
+- ORIGIN
+- PERSON
+forms:
+- action_book_ticket
+intents:
+- book_ticket
+- know_user
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+slots:
+  DESTINATION:
+    type: text
+  ORIGIN:
+    type: text
+  PERSON:
+    type: text
+  requested_slot:
+    type: unfeaturized
+templates:
+  utter_ask_DESTINATION:
+  - text: Where you want to go
+  utter_ask_ORIGIN:
+  - text: From where you want to leave?
+  utter_ask_PERSON:
+  - text: What is your name?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_greet_user:
+  - text: Hey {PERSON}, what can I help you with?
+  utter_happy:
+  - text: Great carry on!
