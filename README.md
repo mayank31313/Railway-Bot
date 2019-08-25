@@ -6,8 +6,8 @@ I have created it in Rasa Framework for python.
 ### Screenshots
 <table>
     <tr>
-        <td><img src="./images/Screenshot (86).png" width="320" height="480"/></td>
-        <td><img src="./images/Screenshot (87).png" width="320" height="480"/></td>
+        <td><img src="./images/Screenshot (86).png" height="480"/></td>
+        <td><img src="./images/Screenshot (87).png" height="480"/></td>
     </tr>
 </table>
 
