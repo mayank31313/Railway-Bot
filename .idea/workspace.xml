@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50c8613c-bb83-4eab-99f8-4c8fe355bea4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/actions.py" afterPath="$PROJECT_DIR$/actions.py" />
-      <change beforePath="$PROJECT_DIR$/data/nlu.md" afterPath="$PROJECT_DIR$/data/nlu.md" />
-      <change beforePath="$PROJECT_DIR$/data/stories.md" afterPath="$PROJECT_DIR$/data/stories.md" />
-      <change beforePath="$PROJECT_DIR$/domain.yml" afterPath="$PROJECT_DIR$/domain.yml" />
-      <change beforePath="$PROJECT_DIR$/html/chat.html" afterPath="$PROJECT_DIR$/html/chat.html" />
-      <change beforePath="$PROJECT_DIR$/rasa_core.log" afterPath="$PROJECT_DIR$/rasa_core.log" />
-      <change beforePath="$PROJECT_DIR$/story_graph.dot" afterPath="$PROJECT_DIR$/story_graph.dot" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <first_editor relative-caret-position="119">
+                <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -140,12 +133,7 @@
             <path>
               <item name="Railway Bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Railway Bot" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Railway Bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Railway Bot" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,17 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/nlu.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="192">
-            <caret line="102" column="8" lean-forward="false" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/stories.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -425,11 +402,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/nlu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="102" column="8" lean-forward="false" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor />
